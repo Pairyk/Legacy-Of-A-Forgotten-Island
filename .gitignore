@@ -1,0 +1,32 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Large asset backups (optional)
+*.bak
+*.tmp
+
+# Database local files (if using SQLite for testing)
+*.sqlite3
+
+# PostgreSQL / Environment Secrets
+.env
+.flaskenv
+secrets.json
+*.log
